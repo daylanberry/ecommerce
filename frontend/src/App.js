@@ -14,8 +14,8 @@ function App() {
       <main className="py-5">
         <Container>
           <Route path="/" component={HomeScreen} exact />
-          <Route path="/product/:id" component={ProductScreen} />
-          <Route path="/product/cart/:id?" component={ProductScreen} />
+          <Route exact path="/product/:id" component={ProductScreen} />
+          <Route path="/product/cart/:id?" component={CartScreen} />
         </Container>
       </main>
       <Footer />
