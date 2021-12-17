@@ -17,7 +17,7 @@ import ProductEditScreen from "./screens/ProductEditScreen";
 import UserEditScreen from "./screens/UserEditScreen";
 import OrderScreen from "./screens/OrderScreen";
 import { Container } from "react-bootstrap";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (

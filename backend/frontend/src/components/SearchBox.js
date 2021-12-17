@@ -18,7 +18,7 @@ function SearchBox() {
   };
 
   return (
-    <Form onSubmit={submitHandler} inline className="d-flex mt-sm-4">
+    <Form onSubmit={submitHandler} inline className="d-flex mt-sm-4 mb-4">
       <Form.Control
         type="text"
         name="q"
